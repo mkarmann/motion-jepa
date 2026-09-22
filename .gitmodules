@@ -1,0 +1,3 @@
+[submodule "planning"]
+	path = planning
+	url = git@github.com:sli1990/motion-jepa.git

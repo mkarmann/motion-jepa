@@ -1,0 +1,3 @@
+model_type: lewm-tgt-detach
+dataset_type: dino
+sigreg_weight: 0.09

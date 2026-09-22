@@ -1,0 +1,5 @@
+model_type: motionjepa
+dataset_type: pong
+sigreg_weight: 0.25
+diff_sigreg_weight: 2.0
+diff_pred_weight: 0.5

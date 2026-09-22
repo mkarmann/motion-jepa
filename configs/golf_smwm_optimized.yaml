@@ -1,0 +1,3 @@
+model_type: smwm
+dataset_type: golf
+action_pred_weight: 1.0

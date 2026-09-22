@@ -1,0 +1,3 @@
+model_type: lewm-sigreg-flattened
+dataset_type: pong
+sigreg_weight: 1.0

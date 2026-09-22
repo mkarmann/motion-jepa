@@ -1,0 +1,38 @@
+[project]
+name = "motionjepa"
+version = "0.1.0"
+description = "MotionJEPA: latent motion JEPA world models (paper release)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "einops>=0.8.1",
+    "h5py>=3.16.0",
+    "hdf5plugin>=6.0.0",
+    "datasets>=4.6.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "tensorboard>=2.20.0",
+    "torch==2.9.1",
+    "torchaudio>=2.9.1",
+    "torchmetrics>=1.8.2",
+    "torchvision>=0.24.1",
+    "tqdm>=4.67.3",
+    "transformers>=5.3.0",
+    "wandb>=0.25.0",
+    "opencv-python>=4.13.0.92",
+]
+
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }

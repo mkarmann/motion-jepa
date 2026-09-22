@@ -1,0 +1,3 @@
+model_type: lewm
+dataset_type: pong
+sigreg_weight: 100.0
