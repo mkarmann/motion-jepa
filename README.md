@@ -18,7 +18,7 @@ Markus Karmann*, Shile Li*, Christian Internò, Bruno Andreis, David Klindt, Ran
 ## 📝 Overview
 
 MotionJEPA is a latent JEPA world model that captures visual change in latent space to prevent temporal feature collapse.
-This repository provides the code to reproduce results of the main offline probing tables and training on the three game environments. Downstream planning results are in the planning subrepo.
+This repository provides the code to reproduce results of the main offline probing tables and training on the three game environments. Downstream planning results are in the separate [planning repository](https://github.com/vivoTechResearch/motionjepa), which is also added as a submodule of this repository.
 
 ## 🔧 Installation
 
